@@ -1,0 +1,44 @@
+
+#bor{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+
+}
+h1{
+    border-bottom: solid  2px black;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50;
+    width: 100px;
+}
+.iteams{
+    display: flex;
+    flex-direction:row;
+    border-bottom: solid  2px black;
+    
+    
+}
+
+p{
+  font-size: 200%;
+   margin-top: 5%;
+}
+.btn{
+    width:25px;
+  height: 20px;
+
+}
+.remove{
+    background-color: brown;
+    margin-right: -2%;
+}
+.price{
+    font-size: 30px;
+    
+}
+.text{
+    font-size: 30px;
+    padding-top: 5%;
+}
+

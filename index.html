@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping cart</title>
+    <script src="https://kit.fontawesome.com/e02b4f0df5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main>
+        <section id="bor">
+            <h1>iteams</h1>
+            <h1>price</h1>
+            <h1>quantity</h1>
+        </section>
+        <section>
+            <div class="iteams">
+                <img src="téléchargement.jpg" alt="pizza" width="20%" style="margin-right: 25px;">
+                <p>pizza</p>
+                <div class="text"       style="padding-left: 25%;">$ <span class="price">11</span>
+
+                </div>
+                <div style="margin-top:80px;margin-left: 300px; ">
+                    <button class="btn min" type="button" value="-" name="min"><i class="fa-solid fa-minus"></i></button>
+                    <input class='qtt' type="text" style=" width:25px; height: 15px;"value="0">
+                    <button  class="btn plus" type="button" value="plus" name="max"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                
+                <i class="fa-solid fa-heart" style="margin-top: 80px;margin-left: 50px;"></i>
+                <button class='remove' style="width: 100px;height: 25px; margin-top: 80px;margin-left: 25px;">remove</button>
+            </div>
+            <div class="iteams">
+                <img src="homborger.jpg" alt="homburger" width="20%"> 
+                <p>homburger</p>
+                <div class="text"   style="padding-left: 25%;" style="height: 188px;">$<span class="price">5</span>
+                </div>
+                <div style="margin-top:80px;margin-left: 300px; ">
+                    <button class="btn min" type="button" value="-" name="min"><i class="fa-solid fa-minus"></i></button>
+                    <input class='qtt' type="text" style=" width:25px; height: 15px;" value="0">
+                    <button  class="btn plus" type="button" value="plus" name="max"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <i class="fa-solid fa-heart" style="margin-top: 80px;margin-left: 50px;"></i>
+                <button class='remove' style="width: 100px;height: 25px; margin-top: 80px;margin-left: 25px;">remove</button>
+            </div>
+            </div>
+            <div class="iteams">
+                <img src="chicken.png" alt="chicken" width="20%">
+                <p>chicken</p>
+                <div class="text"     style="padding-left: 25%;">$ <span class="price">9</span>
+                </div>
+                                <div style="margin-top:80px;margin-left: 300px; ">
+                    <button class="btn min" type="button" value="-" name="min"><i class="fa-solid fa-minus"></i></button>
+                    <input class='qtt' type="text" style=" width:25px; height: 15px;" value="0">
+                    <button  class="btn plus" type="button" value="plus" name="max"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <i class="fa-solid fa-heart" style="margin-top: 80px;margin-left: 50px;"></i>
+                <button class='remove' style="width: 100px;height: 25px; margin-top: 80px;margin-left: 25px;">remove</button>
+            </div>
+            </div>
+            <div class="last">
+                <p  id="total"     style="margin-left: 80%;">total price=$0 </p>
+            </div>
+           
+        
+
+        </section>
+
+    </main>
+    <script src="main.js"></script>
+ 
+</body>
+</html>
